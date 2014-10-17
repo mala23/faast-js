@@ -1,5 +1,5 @@
 function Station() {
-    this.trains=[];
+    this.trains = [];
 };
 
 Station.prototype.dock = function(train) {

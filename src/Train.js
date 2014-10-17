@@ -1,0 +1,5 @@
+function Train() {
+    this.coaches = [];
+};
+
+
