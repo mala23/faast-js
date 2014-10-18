@@ -9,7 +9,7 @@ describe("Train", function() {
         expect(train.coaches).toEqual([]); 
     });
 
-    it("docks coaches", function () {
+    it("docks coaches", function() {
       train.dock(coach01); 
       expect(train.coaches.length).toEqual(1); 
     });
